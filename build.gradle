@@ -1,14 +1,14 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
-    repositories {
+  repositories {
     gradlePluginPortal()
     google()
     mavenCentral()
     maven { url "https://jitpack.io" }
     maven {
         url 'https://home.jundie.top:81/xwalk/maven2'
-        
-         allowInsecureProtocol = true
+        // 允许使用不安全的协议
+        allowInsecureProtocol = true
     }
 }
 
